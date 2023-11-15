@@ -37,6 +37,7 @@ describe ('Phase 1 - Hash table implementation', function () {
     hashTable.insert("key1", "value1");
     hashTable.insert("key2", "value2");
     hashTable.insert("key3", "value3");
+    
 
     expect(hashTable.data[2].key).to.equal("key1")
     expect(hashTable.data[3].key).to.equal("key2")
